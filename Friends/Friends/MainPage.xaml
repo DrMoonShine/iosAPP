@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:Friends"
+             x:Class="Friends.MainPage"
+             Shell.NavBarIsVisible="false"            
+             Shell.UnselectedColor="Gray"
+             Shell.TitleColor="#BC1778">
+    
+    <TabBar>
+        
+        <Tab Title="События"
+             Icon="icon_event.png">
+             <ShellContent ContentTemplate="{DataTemplate views:EventPage}" />
+        </Tab>
+        <Tab Title="История"
+             Icon="icon_history.png">
+             <ShellContent ContentTemplate="{DataTemplate views:HistoryPage}" />
+        </Tab>
+        <Tab Title="Профиль"
+             Icon="icon_user.png">
+             <ShellContent ContentTemplate="{DataTemplate views:UserPage}" />
+        </Tab>
+    </TabBar>
+    
+</Shell>
+
+

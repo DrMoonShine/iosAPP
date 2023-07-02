@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Friends.UpdateDataPage">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="ОСНОВНАЯ ИНФОРМАЦИЯ"
+                   HorizontalOptions="Center"
+                   FontSize="24"
+                   TextColor="Gray"
+                   FontAttributes="Bold"
+                   
+                />
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="10,0,10,0"/>
+            <Label Text="ОБЩАЯ ИНФОРМАЦИЯ" Margin="10,5,5,5" FontSize="20" FontAttributes="Bold" TextColor="Black"/>
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="10,0,10,0"/>
+            <Frame Margin="10,10,10,0" Padding="0" CornerRadius="15" Grid.Column="1" Grid.Row="2">
+                <Entry x:Name="userName" Placeholder="Имя:" Margin="10,0,0,0"   FontSize="16"/>
+            </Frame>
+            <Frame Margin="10,10,10,0" Padding="0" CornerRadius="15" Grid.Column="1" Grid.Row="2">
+                <Entry x:Name="userSecondName" Placeholder="Фамилия:" Margin="10,0,0,0"  FontSize="16"/>
+            </Frame>
+            <Frame Margin="10,10,10,0" Padding="0" CornerRadius="15" Grid.Column="1" Grid.Row="2">
+                <Entry x:Name="userAge" Placeholder="Возраст:" Margin="10,0,0,0"  FontSize="16"/>
+            </Frame>
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="10,0,10,0"/>
+            <Label Text="КОНТАКТЫ" Margin="10,5,5,5" FontSize="20" FontAttributes="Bold" TextColor="Black"/>
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="10,0,10,0"/>
+
+            <Frame Margin="10,10,10,0" Padding="0" CornerRadius="15" Grid.Column="1" Grid.Row="2">
+                <Entry x:Name="userPhone" Placeholder="Телефон: " Margin="10,0,0,0" FontSize="16"/>
+            </Frame>
+            <Frame Margin="10,10,10,0" Padding="0" CornerRadius="15" Grid.Column="1" Grid.Row="2">
+                <Entry x:Name="userMail" Placeholder="E-mail: " Margin="10,0,0,0" FontSize="16"/>
+            </Frame>
+            <Frame Margin="10,10,10,0" Padding="0" CornerRadius="15" Grid.Column="1" Grid.Row="2">
+                <Entry x:Name="userVkLink" Placeholder="Vk: " Margin="10,0,0,0" FontSize="16"/>
+            </Frame>
+            <Frame Margin="10,10,10,0" Padding="0" CornerRadius="15" Grid.Column="1" Grid.Row="2">
+                <Entry x:Name="userTgLink" Placeholder="Telegram: " Margin="10,0,0,0" FontSize="16"/>
+            </Frame>
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="10,0,10,0"/>
+            <Label Text="ОБО МНЕ" Margin="10,5,5,5" FontSize="20" FontAttributes="Bold" TextColor="Black"/>
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="10,0,10,0"/>
+            <Editor x:Name="userDec"  Margin="10,5,5,5" FontSize="16"></Editor>
+
+            <Button Clicked="Update_Click" Text="Принять"></Button>
+            
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>

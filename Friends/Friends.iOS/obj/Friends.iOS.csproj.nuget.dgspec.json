@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/zhan/Projects/Friends/Friends/Friends.iOS/Friends.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/zhan/Projects/Friends/Friends/Friends.iOS/Friends.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zhan/Projects/Friends/Friends/Friends.iOS/Friends.iOS.csproj",
+        "projectName": "Friends.iOS",
+        "projectPath": "/Users/zhan/Projects/Friends/Friends/Friends.iOS/Friends.iOS.csproj",
+        "packagesPath": "/Users/zhan/.nuget/packages/",
+        "outputPath": "/Users/zhan/Projects/Friends/Friends/Friends.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/zhan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/zhan/Projects/Friends/Friends/Friends/Friends.csproj": {
+                "projectPath": "/Users/zhan/Projects/Friends/Friends/Friends/Friends.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/zhan/Projects/Friends/Friends/Friends/Friends.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zhan/Projects/Friends/Friends/Friends/Friends.csproj",
+        "projectName": "Friends",
+        "projectPath": "/Users/zhan/Projects/Friends/Friends/Friends/Friends.csproj",
+        "packagesPath": "/Users/zhan/.nuget/packages/",
+        "outputPath": "/Users/zhan/Projects/Friends/Friends/Friends/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zhan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/Users/zhan/Library/Caches/VisualStudio/17.0/MSBuild/1369_3/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Friends.LoginPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Label Text="АВТОРИЗАЦИЯ"
+                   AbsoluteLayout.LayoutBounds="0.5,0.25"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="24"
+                   TextColor="Gray"
+                   FontAttributes="Bold"
+                   
+                />
+            <StackLayout
+                AbsoluteLayout.LayoutBounds="0.5,0.5"
+                AbsoluteLayout.LayoutFlags="PositionProportional">
+                <Label Text="Логин"/>
+                <Frame Padding="1" CornerRadius="5" HasShadow="True" BorderColor="Black">
+                    <Entry x:Name="Login"
+                    VerticalOptions="Center"
+                    WidthRequest="250"/>
+                </Frame>
+                <Label Text="Пароль"/>
+                <Frame Padding="1" CornerRadius="5" HasShadow="True" BorderColor="Black">
+                    <Entry x:Name="UserPassword"
+                    IsPassword="true"
+                    VerticalOptions="Center"
+                    WidthRequest="250"
+                    />
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Button Clicked="goReg_Click"
+                        Margin="0,9,0,0"
+                        Text="Зарегистрироваться" 
+                        FontSize="9" 
+                        WidthRequest="125"
+                        BorderWidth="1"
+                        BorderColor="Black"
+                        BackgroundColor="White"
+                        CornerRadius="5"
+                        >
+
+                    </Button>
+                    <Button Clicked="log_Click"
+                        Margin="0,9,0,0"
+                        Text="Войти" FontSize="9" 
+                        WidthRequest="125"
+                        BorderWidth="1"
+                        BorderColor="Black"
+                        BackgroundColor="White"
+                        CornerRadius="5"
+                        >
+
+                    </Button>
+                </StackLayout>
+            </StackLayout>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "t2i4saQI8GScEy6IFXEHXRFL2vYAL3z+wFEHXuj5LFAwIVwlev8u8F7wB2lI0lp2xJfhKhAi/6j6tmSz0eeJjg==",
+  "success": true,
+  "projectFilePath": "/Users/zhan/Projects/Friends/Friends/Friends.iOS/Friends.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/zhan/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+    "/Users/zhan/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/zhan/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/zhan/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/zhan/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/zhan/.nuget/packages/system.text.encodings.web/5.0.1/system.text.encodings.web.5.0.1.nupkg.sha512",
+    "/Users/zhan/.nuget/packages/system.text.json/5.0.2/system.text.json.5.0.2.nupkg.sha512",
+    "/Users/zhan/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/zhan/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

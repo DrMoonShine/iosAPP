@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Friends.CreatorPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <AbsoluteLayout HeightRequest="60">
+                <AbsoluteLayout.Background>
+                    <LinearGradientBrush EndPoint="1,0">
+                        <GradientStop Color="#E77ABA"
+                          Offset="0.1" />
+                        <GradientStop Color="#BC1778"
+                          Offset="1.0" />
+                    </LinearGradientBrush>
+                </AbsoluteLayout.Background>
+                <Label FontSize="40" FontAttributes="Bold" TextColor="White" Margin="10,0,0,0" Text="ПРОФИЛЬ"/>
+            </AbsoluteLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.4*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                </Grid.ColumnDefinitions>
+                <Frame Padding="0" CornerRadius="15" Grid.RowSpan="5" Margin="10,0,0,0">
+                    <Image Source="user.png"></Image>
+
+                </Frame>
+                <Label x:Name="userNickName" Text="NickName" Grid.Column="1" Grid.ColumnSpan="2" TextColor="Black" FontSize="25" FontAttributes="Bold"/>
+                <Label x:Name="userName" Text="Имя:" Grid.Column="1" Grid.Row="1" FontSize="16"/>
+                <Label x:Name="userSecondName" Text="Фамилия:" Grid.Column="1" Grid.Row="2" FontSize="16"/>
+                <Label x:Name="userAge" Text="Возраст:" Grid.Column="1" Grid.Row="3" FontSize="16"/>
+
+
+
+
+            </Grid>
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="10,0,10,0"/>
+            <Label Text="КОНТАКТЫ" Margin="10,5,5,5" FontSize="20" FontAttributes="Bold" TextColor="Black"/>
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="10,0,10,0"/>
+            <Label x:Name="userPhone" Text="Телефон: " Margin="10,5,5,5" FontSize="16"/>
+            <Label x:Name="userMail" Text="E-mail: " Margin="10,5,5,5" FontSize="16"/>
+            <Label x:Name="userVkLink" Text="VK: " Margin="10,5,5,5" FontSize="16"/>
+            <Label x:Name="userTgLink" Text="Telegram: " Margin="10,5,5,5" FontSize="16"/>
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="10,0,10,0"/>
+            <Label Text="ОБО МНЕ" Margin="10,5,5,5" FontSize="20" FontAttributes="Bold" TextColor="Black"/>
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" Margin="10,0,10,0"/>
+            <Label x:Name="userDec" Margin="10,5,5,5" FontSize="16" Text="Я не знаю что тебе обо мне рассказали. Обо мне ходит множество недостоверных слухов. Вы что, весь вечер говорили обо мне? Как ты только мог такое обо мне подумать?"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
